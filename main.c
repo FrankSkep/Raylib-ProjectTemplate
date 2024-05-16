@@ -8,7 +8,7 @@ int main()
     InitWindow(SCR_WIDTH, SCR_HEIGHT, "Simon Game");
     SetTargetFPS(60);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(BLACK);
