@@ -5,7 +5,7 @@
 
 int main()
 {
-    InitWindow(SCR_WIDTH, SCR_HEIGHT, "Simon Game");
+    InitWindow(SCR_WIDTH, SCR_HEIGHT, "Game Name");
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
